@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-  background-color: #221f1f;
+  background-color: black;
   color: #f5f5f1;
   font-family: Arial, sans-serif;
 }
@@ -27,7 +27,7 @@ body {
   z-index: 10;
   height: 80px;
   display: flex;
-  background-color: black;
+  background-color: #000;
   color: r#b20710;
   position: fixed;
 }
@@ -63,7 +63,7 @@ body {
 
 .episodes-main {
   padding: 120px 40px 40px;
-  background-color:#221f1f;
+  background-color:#111;
   color: #f5f5f1;
 }
 
@@ -78,7 +78,7 @@ body {
 }
 
 .episode-card {
-  background-color: #2E2E2E;
+  background-color: #221f1f;
   border-left: 4px solid #b20710;
   padding: 20px;
   padding-bottom: 35px;

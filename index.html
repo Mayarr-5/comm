@@ -19,18 +19,29 @@
     </nav>
   </header>
 
-  <section id="welcome-section">
-  <h1>Bienvenue sur <span class="golflix">GolFlix</span> 🎬</h1>
-  </section>
+  <main class="hero">
+  <div class="hero-left">
+    <div class="hero-content">
+      <div class="subtitle-line">
+      <img class="ico" src="assets/favicon.ico">
+      <span class="subtitle">ORIGINALS</span>
+      </div>
+      <h1>Ma Mission : Communication</h1>
+      <p class="year">présentation &#x2022; 2025 &#x2022; 6 épisodes</p>
+      <p class="description">
+       Faire rayonner nos actions, rapprocher nos membres, et faire entendre notre voix voilà ma vision pour la communication.
+      </p>
+      <div class="buttons">
+        <button class="play" onclick="window.location.href='html/episode1.html'">▶ Play</button>
+        <button class="info" onclick="window.location.href='html/episodes.html'">ℹ More Info</button>
+      </div>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="overlay"></div>
+  </div>
+</main>
 
-  <section id="serie-card">
-  <img src="assets/images/intro.jpg" alt="Thumbnail de la série" id="serie-thumbnail" />
-  <div id="serie-info">
-    <h2>Candidature pour le poste de cheffe communication</h2>
-    <p>présentation &#x2022; 2025 &#x2022; 6 épisodes</p>
-    <button id="show-episodes-btn" onclick="window.location.href='html/episodes.html'">Afficher les épisodes</button>
-  </div> 
-</section>
 
 
   <script src="scripts/main.js"></script>
